@@ -6,7 +6,7 @@
     ansible_python_interpreter: /usr/bin/python2
     application: nginxblue
   tasks:
-    - name: create instances
+    - name: create_instances
       include_role: 
         name: create_instance
     - name: setup DNS

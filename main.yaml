@@ -7,8 +7,8 @@
     application: nginxblue
   tasks:
   - name: create instances
-    include_role: 
-    name: create_instance
+      include_role: 
+        name: create_instance
   - name: setup DNS
-    include_role:
-    name: route53
+      include_role:
+        name: route53  

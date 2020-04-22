@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e -x
 export DEBIAN_FRONTEND=noninteractive
 sudo locale-gen pt_BR.UTF-8
